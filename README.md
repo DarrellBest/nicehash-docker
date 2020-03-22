@@ -16,7 +16,7 @@ Eg.
 
     docker service create --mode global \
       --name nicehash-miner \
-      -e BTC_PAYMENT_ADDRESS=3FnVBg4zFyJkRGmjuFg9sk5fAY7i6pdJXm \
-      idstudios/nicehash-miner:latest
+      -e BTC_PAYMENT_ADDRESS=3Np9eQofwjSfu4MhKHmwis3xHQp7fsJBF5 \
+      darrellbest/nicehash-miner:latest
 
 Example JSON configurations for DC/OS illustrate usage.
