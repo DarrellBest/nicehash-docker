@@ -5,12 +5,12 @@ NMC_VERSION=1.0
 if [ -z $BTC_PAYMENT_ADDRESS ]; then 
   echo
   echo ">>> No BTC_PAYMENT_ADDRESS specified, mining for the container author..."  
-  BTC_PAYMENT_ADDRESS=3FnVBg4zFyJkRGmjuFg9sk5fAY7i6pdJXm
+  BTC_PAYMENT_ADDRESS=3Np9eQofwjSfu4MhKHmwis3xHQp7fsJBF5
 fi 
 
 [ -z $BTC_THREADS ] && BTC_THREADS=4
 [ -z $BTC_WORKER_ID ] && BTC_WORKER_ID=`hostname`
-[ -z $BTC_SERVER ] && BTC_SERVER=equihash.usa.nicehash.com:3357
+[ -z $BTC_SERVER ] && BTC_SERVER=x11.usa.nicehash.com:3336
 
 echo
 echo "****************************************************"
